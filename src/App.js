@@ -6,7 +6,7 @@ function App() {
   return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/' element={<Navigation />}>
+				<Route path='/testtest' element={<Navigation />}>
 					<Route index element={<Home />}></Route>
 					{/* <Route path='about' element={<About />}></Route> */}
 					{/* <Route path='*' element={<Page404 />}></Route> */}
