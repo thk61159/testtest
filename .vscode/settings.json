@@ -1,0 +1,9 @@
+{
+	"files.associations": { "*.js": "javascriptreact" },
+	"[javascriptreact]": {
+		"editor.defultformatter": "esbenp.prettier-vscode"
+	},
+	"editor.wordWrapColumn": 300,
+	"html.format.wrapAttributes": "force-aligned",
+	"prettier.proseWrap": "preserve"
+}

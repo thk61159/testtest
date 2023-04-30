@@ -1,0 +1,12 @@
+FROM node:15
+WORKDIR /app 
+COPY package.json /app 
+ARG NODE_ENV
+
+RUN npm install
+COPY . ./ 
+
+RUN npm run build
+
+FROM nginx
+COPY --from=build /app/build /usr/share/nginx/html
